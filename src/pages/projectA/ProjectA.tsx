@@ -1,4 +1,3 @@
-import React from 'react'
 import './projectA.css'
 import imgA from '../../../src/assets/projectImage/imgA.png'
 import googleAds from '../../../src/assets/googleAds.png' 

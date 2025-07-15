@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './about.css'
 
 import one from '../../../src/assets/icon/one.svg'

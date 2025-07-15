@@ -1,4 +1,3 @@
-import React from 'react'
 import './aboutPage.css'
 
 import one from '../../../src/assets/icon/one.svg'

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './navbar.css'
 import { Link } from 'react-router-dom';
 
@@ -15,11 +15,10 @@ import { useState } from 'react'
 
 
 const Navbar = () => {
-      const lottieRef = useRef();
-      const lottieRef1 = useRef();
-      const lottieRef2 = useRef();
-      const lottieRef3 = useRef();
-      const lottieRef4 = useRef();
+      const lottieRef = useRef(null);
+      const lottieRef1 = useRef(null);
+      const lottieRef2 = useRef(null);
+      const lottieRef3 = useRef(null);
  
 
     const [dots, changeDots] = useState([true, false,false,false,false])
@@ -303,8 +302,8 @@ const Navbar = () => {
 
 
             <div 
-      onMouseEnter={() => lottieRef.current.play()}
-      onMouseLeave={() => lottieRef.current.stop()}
+      onMouseEnter={() => lottieRef.current?.play()}
+      onMouseLeave={() => lottieRef.current?.stop()}
       className="thisClassToThtat"
     >
       <Lottie

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './contact.css'
 
 import contactCat from '../../assets/json/contactCat.json'
@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 import { useRef } from 'react'
 
 const Contact = () => {
-  const CatOnref = useRef()
+  const CatOnref = useRef(null)
   
 
   return (

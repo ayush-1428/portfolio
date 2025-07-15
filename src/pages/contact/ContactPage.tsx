@@ -1,7 +1,5 @@
-import React from 'react'
-import './contactPage.css'
 
-import arrow from '../../assets/icon/icons8-arrow.svg'
+import './contactPage.css'
 
 import github from '../../assets/socials/github.svg'
 import ln from '../../assets/socials/linkden.svg'
@@ -19,10 +17,10 @@ import { useRef } from 'react';
 
 const ContactPage = () => {
 
-  const lottieRef1 = useRef();
-  const lottieRef2 = useRef();
-  const lottieRef3 = useRef();
-  const lottieRef4 = useRef();
+  const lottieRef1 = useRef(null);
+  const lottieRef2 = useRef(null);
+  const lottieRef3 = useRef(null);
+  const lottieRef4 = useRef(null);
   return (
     <div className='contactPageOverview'>
 
@@ -37,8 +35,8 @@ const ContactPage = () => {
 
                         <div className='socialLinks'
                         
-      onMouseEnter={() => lottieRef1.current.play()}
-      onMouseLeave={() => lottieRef1.current.stop()}
+      onMouseEnter={() => lottieRef1.current?.play()}
+      onMouseLeave={() => lottieRef1.current?.stop()}
       >
                             <div className='contycont1'>
                                 <img src={email} className='iconsIco' alt="" />
@@ -48,8 +46,8 @@ const ContactPage = () => {
 
 
                   <div
-      onMouseEnter={() => lottieRef1.current.play()}
-      onMouseLeave={() => lottieRef1.current.stop()}
+      onMouseEnter={() => lottieRef1.current?.play()}
+      onMouseLeave={() => lottieRef1.current?.stop()}
       
 
       className="arrowAnimintion"
@@ -69,8 +67,8 @@ const ContactPage = () => {
                         
                         <div className='socialLinks'
                         
-                              onMouseEnter={() => lottieRef2.current.play()}
-      onMouseLeave={() => lottieRef2.current.stop()}
+                              onMouseEnter={() => lottieRef2.current?.play()}
+      onMouseLeave={() => lottieRef2.current?.stop()}
       >
                             <div className='contycont1'>
                                 <img src={github} className='iconsIco' alt="" />
@@ -78,8 +76,8 @@ const ContactPage = () => {
                             </div>
 
                                               <div
-      onMouseEnter={() => lottieRef2.current.play()}
-      onMouseLeave={() => lottieRef2.current.stop()}
+      onMouseEnter={() => lottieRef2.current?.play()}
+      onMouseLeave={() => lottieRef2.current?.stop()}
       
 
       className="arrowAnimintion"
@@ -96,8 +94,8 @@ const ContactPage = () => {
 
                         <div className='socialLinks'
                         
-      onMouseEnter={() => lottieRef3.current.play()}
-      onMouseLeave={() => lottieRef3.current.stop()}
+      onMouseEnter={() => lottieRef3.current?.play()}
+      onMouseLeave={() => lottieRef3.current?.stop()}
       >
                             <div className='contycont1'>
                                 <img src={ln} className='iconsIco' alt="" />
@@ -105,8 +103,8 @@ const ContactPage = () => {
                             </div>
 
                                               <div
-      onMouseEnter={() => lottieRef3.current.play()}
-      onMouseLeave={() => lottieRef3.current.stop()}
+      onMouseEnter={() => lottieRef3.current?.play()}
+      onMouseLeave={() => lottieRef3.current?.stop()}
       
 
       className="arrowAnimintion"
@@ -123,8 +121,8 @@ const ContactPage = () => {
                         </div>                        <div className='socialLinks'
                         
                         
-      onMouseEnter={() => lottieRef4.current.play()}
-      onMouseLeave={() => lottieRef4.current.stop()}
+      onMouseEnter={() => lottieRef4.current?.play()}
+      onMouseLeave={() => lottieRef4.current?.stop()}
       
       >
                             <div className='contycont1'>
@@ -133,8 +131,8 @@ const ContactPage = () => {
                             </div>
 
                                               <div
-      onMouseEnter={() => lottieRef4.current.play()}
-      onMouseLeave={() => lottieRef4.current.stop()}
+      onMouseEnter={() => lottieRef4.current?.play()}
+      onMouseLeave={() => lottieRef4.current?.stop()}
       
 
       className="arrowAnimintion"

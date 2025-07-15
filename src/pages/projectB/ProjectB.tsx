@@ -1,8 +1,6 @@
-import React from 'react'
 import './projectB.css'
 
 import imgB from '../../../src/assets/projectImage/imgB.png'
-import googleAds from '../../../src/assets/googleAds.png' 
 
 import Stack from '../../components/stack/Stack'
 import Foot from '../../components/fotter/Foot'

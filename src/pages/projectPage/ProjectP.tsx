@@ -1,7 +1,5 @@
-import React from 'react'
 import './project.css'
 
-import Project from '../../components/projects/Project'
 import Stack from '../../components/stack/Stack'
 import Contact from '../../components/contact/Contact'
 import Foot from '../../components/fotter/Foot'

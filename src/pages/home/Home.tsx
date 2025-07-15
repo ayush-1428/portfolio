@@ -8,7 +8,6 @@ import Foot from "../../components/fotter/Foot";
 
 
 
-import React from 'react'
 
 const Home = () => {
   return (

@@ -1,11 +1,9 @@
-import React from "react";
 import "./stack.css";
 
 import arch from "../../assets/teachy/arch.svg";
 import css from "../../assets/teachy/css.svg";
 import figma from "../../assets/teachy/figma.svg";
 import django from "../../assets/teachy/django.svg";
-import github from "../../assets/teachy/github.svg";
 import html from "../../assets/teachy/html.svg";
 import js from "../../assets/teachy/js.svg";
 import matplotlib from "../../assets/teachy/matplotlib.svg";

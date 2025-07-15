@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import './header.css'
 
@@ -8,7 +7,7 @@ import { useRef } from 'react'
 import Lottie from 'lottie-react'
 const Header = () => {
 
-  const newRaf = useRef()
+  const newRaf = useRef(null)
   return (
     <div className='header-cont'>
 
