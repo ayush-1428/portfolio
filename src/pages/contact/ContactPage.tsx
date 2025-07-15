@@ -7,8 +7,8 @@ import email from '../../assets/socials/email.svg'
 import x from '../../assets/socials/x.svg'
 
 import Foot from '../../components/fotter/Foot'
+import Lottie, { type LottieRefCurrentProps } from 'lottie-react';
 
-import Lottie from 'lottie-react'
 
 import arrowANi from '../../assets/json/newarror.json'
 
@@ -17,10 +17,10 @@ import { useRef } from 'react';
 
 const ContactPage = () => {
 
-  const lottieRef1 = useRef(null);
-  const lottieRef2 = useRef(null);
-  const lottieRef3 = useRef(null);
-  const lottieRef4 = useRef(null);
+  const lottieRef1 =  useRef<LottieRefCurrentProps | null>(null);
+  const lottieRef2 =  useRef<LottieRefCurrentProps | null>(null);
+  const lottieRef3 =  useRef<LottieRefCurrentProps | null>(null);
+  const lottieRef4 =  useRef<LottieRefCurrentProps | null>(null);
   return (
     <div className='contactPageOverview'>
 

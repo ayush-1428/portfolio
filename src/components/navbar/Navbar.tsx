@@ -2,7 +2,9 @@
 import './navbar.css'
 import { Link } from 'react-router-dom';
 
-import Lottie from 'lottie-react';
+import Lottie, { type LottieRefCurrentProps } from 'lottie-react';
+
+
 import { useRef } from 'react';
 
 
@@ -14,11 +16,12 @@ import { useState } from 'react'
 
 
 
+
 const Navbar = () => {
-      const lottieRef = useRef(null);
-      const lottieRef1 = useRef(null);
-      const lottieRef2 = useRef(null);
-      const lottieRef3 = useRef(null);
+      const lottieRef = useRef<LottieRefCurrentProps | null>(null);
+      const lottieRef1 = useRef<LottieRefCurrentProps | null>(null);
+      const lottieRef2 = useRef<LottieRefCurrentProps | null>(null);
+      const lottieRef3 = useRef<LottieRefCurrentProps | null>(null);
  
 
     const [dots, changeDots] = useState([true, false,false,false,false])
@@ -29,7 +32,7 @@ const Navbar = () => {
         
     }
 
-    function toggleDots(updateDot){
+    function toggleDots(updateDot: number){
         
         const newDotList = [false, false,false,false,false]
         newDotList[updateDot] = true
